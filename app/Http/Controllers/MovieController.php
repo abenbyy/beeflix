@@ -11,7 +11,7 @@ class MovieController extends Controller
     public function movie($id){
         $movie = Movie::find($id);
 
-        $ep = Episode::where('movie_id',$id)->paginate(3);
+        $ep = Episode::where('movie_id',$id)->paginate(5);
 
         return view('movie')->with('movie',$movie)->with('ep',$ep);
     }
