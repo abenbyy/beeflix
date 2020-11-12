@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #3700B3;
+    color: white;
+    font-size: 20px;
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+#web-title{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.btn{
+    padding: 12px 12px 12px 12px;
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+
+    border-radius: 5px;
+}
+
+.btn-compliment{
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: white;
+    font-size: 15px;
+    border-width: 2px;
+    color: white;
+
+    border-radius: 5px;
+}
+
